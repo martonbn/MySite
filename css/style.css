@@ -1,0 +1,13 @@
+body{
+    font-family: 'Sora', sans-serif;
+    background-color: #EAF6F6;
+    color: #201e15;
+  }
+
+  hr{
+    border-color: #6bb9b9;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 7px;
+    width: 10%;
+  }
