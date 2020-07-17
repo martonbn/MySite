@@ -41,6 +41,10 @@
 }
 
 
+img{
+  margin: 6px;
+}
+
 body{
   font-family: 'Noticia Text', serif;
    background-color: #12181b;
