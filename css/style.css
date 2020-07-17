@@ -30,6 +30,17 @@
 }
 
 
+.projectbox2 {
+  background-color: #2d323c;
+  width: 82%;
+  border: 1px solid #09804c;
+  padding: 10px;
+  margin: 5px;
+  float: left; 
+  
+}
+
+
 body{
   font-family: 'Noticia Text', serif;
    background-color: #12181b;
