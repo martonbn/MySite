@@ -14,12 +14,13 @@ html {
   border: none;
   color: #FFFFFF;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   padding: 11px;
   width: 190px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 4px;
+  font-family: 'Rowdies', cursive;
 }
 
 .button2 {
@@ -69,12 +70,19 @@ html {
 
 .projectbox {
   background-color: #2d323c;
-  width: 42%;
+  width: 47%;
   border: 1px solid #09804c;
   padding: 10px;
   margin: 5px;
-  float: left; 
-  
+  float: left;
+  border-radius: 3px;
+}
+
+.emptyBox {
+  width: 99%;
+  padding: 8px;
+  margin: 4px;
+  float: right;
 }
 
 ::selection{
@@ -112,6 +120,7 @@ body{
    background-color: #12181b;
    color: #b2becd;
    margin: 0;
+   width: 100%;
 }
 
 hr{
@@ -120,6 +129,7 @@ hr{
   border-top-style: dashed;
   border-width: 3px;
   width: 100%;
+
 }
 
 
