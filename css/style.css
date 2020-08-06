@@ -1,6 +1,70 @@
+/************************************TAG SELECTOR************************************************/
+
 html {
   scroll-behavior: smooth;
 }
+
+/*DINAMIKUS KÉP*/
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+body{
+  font-family: 'Noticia Text', serif;
+   background-color: #12181b;
+   color: #b2becd;
+   margin: 0;
+   width: 100%;
+}
+
+hr{
+  border-color: #2a2e35;
+  border-style: none;
+  border-top-style: dashed;
+  border-width: 3px;
+  width: 100%;
+
+}
+
+
+b{
+    color: white;
+    
+}
+
+a{
+    color: #b2becd;
+}
+
+table{
+    width: 50%;
+    height: 40px;
+}
+
+a:link {
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    color: #09c372;
+    transition: 0.5s;
+  }
+
+  a:active {
+    text-decoration: none;
+    color: #09c372;
+}
+
+
+/************************************SELECTION************************************************/
 
 .CVpart{
     font-size: 16px;
@@ -85,6 +149,8 @@ html {
   float: right;
 }
 
+/************************************************************************************/
+
 ::selection{
   color: white  ;
   background-color: #00ff91;
@@ -108,61 +174,3 @@ html {
   background-color: #0ba864;
 }
 
-/*DINAMIKUS KÉP*/
-img {
-  max-width: 100%;
-  height: auto;
-  width: auto\9;
-}
-
-body{
-  font-family: 'Noticia Text', serif;
-   background-color: #12181b;
-   color: #b2becd;
-   margin: 0;
-   width: 100%;
-}
-
-hr{
-  border-color: #2a2e35;
-  border-style: none;
-  border-top-style: dashed;
-  border-width: 3px;
-  width: 100%;
-
-}
-
-
-b{
-    color: white;
-    
-}
-
-a{
-    color: #b2becd;
-}
-
-table{
-    width: 50%;
-    height: 40px;
-}
-
-a:link {
-    text-decoration: none;
-    transition: 0.5s;
-  }
-  
-  a:visited {
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: none;
-    color: #09c372;
-    transition: 0.5s;
-  }
-
-  a:active {
-    text-decoration: none;
-    color: #09c372;
-}
