@@ -72,6 +72,21 @@ a:link {
     margin: 18px;
 }
 
+
+.sidemenu{
+  font-family: 'Rowdies', cursive;
+  background-color: #09c372;
+  color: #ececec;
+  float: left;
+  width: 30%;
+  height: max-content;
+  border-radius: 9px;
+  position: absolute;
+  display: block;
+  margin-top: 35px;
+  margin-left: 10px;
+}
+
 .button {
   border-radius: 2px;
   background-color: #09c372;
